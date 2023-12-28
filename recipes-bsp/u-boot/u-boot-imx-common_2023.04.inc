@@ -7,7 +7,7 @@ UBOOT_SRC ?= "git://github.com/windowxia/uboot-imx.git;protocol=https"
 SRC_URI = "${UBOOT_SRC};branch=${SRCBRANCH}"
 SRCBRANCH = "lf_v2023.04_myir"
 LOCALVERSION ?= "-${SRCBRANCH}"
-SRCREV = "49b102d98881fc28af6e0a8af5ea2186c1d90a5f"
+SRCREV = "${AUTOREV}"
 
 DEPENDS += " \
     bc-native \
