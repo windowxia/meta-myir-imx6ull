@@ -20,7 +20,7 @@ DEPENDS += "lzop-native bc-native"
 SRC_URI = "${KERNEL_SRC}"
 KERNEL_SRC ?= "git://github.com/windowxia/linux-imx.git;protocol=https;branch=${SRCBRANCH}"
 KBRANCH = "${SRCBRANCH}"
-SRCBRANCH = "lf-6.1.y"
+SRCBRANCH = "lf-6.1.y-myir"
 LOCALVERSION = "-lts-next"
 SRCREV = "770c5fe2c1d1529fae21b7043911cd50c6cf087e"
 

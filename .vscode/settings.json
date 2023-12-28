@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/xxb/imx6ull/yocto/imx6ull_6.1.55/sources/meta-myir-imx6ull/sources/poky/bitbake/lib"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/xxb/imx6ull/yocto/imx6ull_6.1.55/sources/meta-myir-imx6ull/sources/poky/bitbake/lib"
+    ]
+}

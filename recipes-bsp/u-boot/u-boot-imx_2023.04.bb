@@ -12,7 +12,7 @@ require u-boot-imx-common_${PV}.inc
 
 #SRC_URI = "${UBOOT_SRC};branch=${SRCBRANCH}"
 #UBOOT_SRC ?= "git://github.com/windowxia/uboot-imx.git;protocol=https"
-#SRCBRANCH = "lf_v2023.04"
+#SRCBRANCH = "lf_v2023.04_myir"
 #SRCREV = "${AUTOREV}"
 #LOCALVERSION = "-${SRCBRANCH}"
 

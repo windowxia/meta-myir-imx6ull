@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://Licenses/gpl-2.0.txt;md5=b234ee4d69f5fce4486a80fdaf4a
 
 UBOOT_SRC ?= "git://github.com/windowxia/uboot-imx.git;protocol=https"
 SRC_URI = "${UBOOT_SRC};branch=${SRCBRANCH}"
-SRCBRANCH = "lf_v2023.04"
+SRCBRANCH = "lf_v2023.04_myir"
 LOCALVERSION ?= "-${SRCBRANCH}"
 SRCREV = "49b102d98881fc28af6e0a8af5ea2186c1d90a5f"
 
